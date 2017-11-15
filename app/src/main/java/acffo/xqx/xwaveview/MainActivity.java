@@ -13,6 +13,12 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         xWaveView = (XWaveView) findViewById(R.id.xWaveView);
         xWaveView.startWave();
+//        gradlew clean build bintrayUpload -PbintrayUser=acffo -PbintrayKey=002934430dfe836f7d2cc159ec0c341eee48ffe6 -PdryRun=false
+//        gradlew clean build bintrayUpload
+//        -PbintrayUser=acffo
+//        -PbintrayKey=002934430dfe836f7d2cc159ec0c341eee48ffe6
+//        -PdryRun=false
 
     }
+
 }

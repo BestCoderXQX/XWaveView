@@ -1,4 +1,6 @@
 apply plugin: 'com.android.library'
+apply plugin:  'maven'
+apply plugin: 'com.novoda.bintray-release'
 
 android {
     compileSdkVersion 25
@@ -29,3 +31,13 @@ dependencies {
     compile 'com.android.support:appcompat-v7:25.3.1'
     testCompile 'junit:junit:4.12'
 }
+//添加
+publish {
+    userOrg = 'xqxlibrary'
+    groupId = 'acffo.xqx.xwaveviewlib'
+    artifactId = 'maven'
+    publishVersion = '1.0.0'
+    desc = '波浪流动效果'
+    website = 'https://github.com/BestCoderXQX/XWaveView'
+}
+

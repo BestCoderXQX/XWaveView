@@ -14,12 +14,12 @@
         android:background="#eba703"
         >
 
-        <acffo.xqx.xwaveview.XWaveView
+        <acffo.xqx.xwaveviewlib.XWaveView
             android:id="@+id/xWaveView"
             android:layout_width="match_parent"
             android:layout_height="30dp"
             android:layout_gravity="bottom"
             >
-        </acffo.xqx.xwaveview.XWaveView>
+        </acffo.xqx.xwaveviewlib.XWaveView>
     </FrameLayout>
 </LinearLayout>
