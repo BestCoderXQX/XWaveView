@@ -1,6 +1,9 @@
 # XWaveView
 波浪流动效果
 
+-----------------------------------------------
+ ![image](https://github.com/BestCoderXQX/XWaveView/raw/master/screenshots/bbb.gif)
+
 
 使用方法：
 
@@ -18,8 +21,10 @@
             android:layout_gravity="bottom"
             >
         </acffo.xqx.xwaveviewlib.XWaveView>
-    </FrameLayout>
-
+    </FrameLayout>
+    
+ ----------------------------------------------------
+ 
     xWaveView = (XWaveView) findViewById(R.id.xWaveView);
         
     xWaveView.startWave(); //开启波浪动画
@@ -27,6 +32,7 @@
  ------------------------------------------------
        
         可设置属性：
+        
         
         xWaveView.setWaveWidth(800); // 设置波浪的X轴幅度，一上一下为一个单位
         
