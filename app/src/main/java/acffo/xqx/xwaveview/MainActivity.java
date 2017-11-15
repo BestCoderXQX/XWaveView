@@ -1,5 +1,6 @@
 package acffo.xqx.xwaveview;
 
+import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
@@ -12,12 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         xWaveView = (XWaveView) findViewById(R.id.xWaveView);
-        xWaveView.startWave();
-//        gradlew clean build bintrayUpload -PbintrayUser=acffo -PbintrayKey=002934430dfe836f7d2cc159ec0c341eee48ffe6 -PdryRun=false
-//        gradlew clean build bintrayUpload
-//        -PbintrayUser=acffo
-//        -PbintrayKey=002934430dfe836f7d2cc159ec0c341eee48ffe6
-//        -PdryRun=false
+        xWaveView.startWave(); //开启波浪动画
 
     }
 
