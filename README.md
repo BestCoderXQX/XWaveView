@@ -5,7 +5,12 @@
  ![image](https://github.com/BestCoderXQX/XWaveView/raw/master/screenshots/bbb.gif)
 
 
-使用方法：
+Gradle：
+-------------------------------
+compile 'acffo.xqx.xwaveviewlib:maven:1.0.0'
+
+
+Usage：
 
   ------------------------------------------------
     <FrameLayout
