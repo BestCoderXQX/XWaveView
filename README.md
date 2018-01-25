@@ -57,3 +57,6 @@ Usage：
  ![image](https://github.com/BestCoderXQX/XWaveView/raw/master/screenshots/aaa.gif)
  
 
+
+ [我的博客: 听着music睡](http://www.cnblogs.com/xqxacm/)
+
