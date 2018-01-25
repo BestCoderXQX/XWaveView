@@ -7,7 +7,7 @@
 
 Gradle：
 -------------------------------
-compile 'acffo.xqx.xwaveviewlib:maven:1.0.0'
+compile 'acffo.xqx.xwaveviewlib:waveView:1.0.0'
 
 
 Usage：
